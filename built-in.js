@@ -41,7 +41,7 @@ const second = fs.readFileSync('../content/secondtext.txt','utf8')//takes conent
 // console.log(first,second) // Prints data in both variable
 
 // //Fs module Async Mode
-// const fs = require('fs')// Imports fs Module
+// {const fs = require('fs')// Imports fs Module
 // fs.readFile('../content/firsttext.txt','utf-8', (err,result)=> { // here err is error and result is data which readfile function ilitrate through
 //     if(err){
 //         return console.log(err)
@@ -58,7 +58,7 @@ const second = fs.readFileSync('../content/secondtext.txt','utf8')//takes conent
 //             const second = result;
 //         }
 //         fs.writeFile('../content/thirdASYNC.txt','Hello World', (err,result)=>{
-//             if(err){
+//             if(err)
 //                 return console.log(err)
 //             }
 //             else{
