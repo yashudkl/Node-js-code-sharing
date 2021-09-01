@@ -1,3 +1,37 @@
+const { readFile} = require('fs')//BY using .promises you don't have to use readilepromise just use readfile //Importing fs module
+const util = require('util')//Improting require module
+const readfilepromise = util.promisify(readFile) //This stores reafile by promisifying it in readfilepromise variable
+const start = async() =>{
+    try{const first = await readfilepromise('readme.txt','utf-8') //Using readFile functuon but promisified
+    console.log(first) 
+ }
+    catch(err){
+        console.log(err)
+    }
+}
+start()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 setTimeout(()=>{
