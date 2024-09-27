@@ -1,1 +1,1 @@
-This file that should be read by readfilepromise
+Not a project!
